@@ -1,3 +1,6 @@
+/* if you want access full project please follow this information
+    email-address : vtti@gmail.com
+    password : password */
 document.getElementById("log-in-button").addEventListener("click", function () {
     const emailField = document.getElementById("email");
     const userEmail = emailField.value;

@@ -1,3 +1,6 @@
+/* if you want access full project please follow this information
+    email-address : vtti@gmail.com
+    password : password */
 document.getElementById("deposit-button").addEventListener("click", function () {
     const depositField = document.getElementById("deposit-amount");
     const userDeposit = depositField.value;
