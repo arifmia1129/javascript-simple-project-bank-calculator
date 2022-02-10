@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-5">Welcome to <span class="text-green-500 font-bold">Amader Bank</span>
+        </h1>
+    </header>
+
+    <main>
+        <div class="bg-green-100 p-10 w-3/4 mt-5 mx-auto">
+            <h3 class="text-2xl font-medium mb-5 text-center">Please log in your account</h3>
+            <h5 id="hidden-text" class="p-5 hidden text-red-500 font-semibold text-center">Your email or
+                password
+                is not
+                valid.</h5>
+            <input class="w-3/4 border border-yellow-200 rounded mb-2 p-2 mx-auto block" type="text" name="" id="email"
+                placeholder="Enter your valid email">
+            <input class="w-3/4 border border-yellow-200 rounded mb-2 p-2 block mx-auto" type="password" name=""
+                id="password" placeholder="Enter correct password">
+            <button id="log-in-button" class="bg-yellow-500 px-4 py-2 text-white font-medium mx-auto block">Log
+                in</button>
+        </div>
+    </main>
+
+
+    <script src="js/login.js"></script>
+</body>
+
+</html>
